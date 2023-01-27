@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(112, 112, 199);
+}
+.container{
+    width: 450px;
+    background-color: rgb(160, 84, 231);
+    border-radius: 100px 80px 0;
+    padding: 60px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    transform: translateY(50%);
+    flex-direction: column;
+
+}
+.container h2{
+    margin: 2rem 0;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: rgb(233, 135, 135);
+    border-bottom: 1px solid rgb(136, 68, 68);
+    font-size: 2rem;
+
+}
+.form{
+    margin-bottom: 2rem;
+}
+.form label, input{
+    display: block;
+    width: 100%;
+}
+.form label{
+    margin-bottom: 2px;
+    color: rgb(27, 85, 85);
+    font-size: 10px;
+}
+.form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.form a{
+    width: 100%;
+    background: rgb(116, 66, 2);
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(36, 53, 19);
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+   .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   }
+   .link a{
+    color: rgb(6, 59, 59);
+    text-decoration: none;
+   }
+   .link a:hover{
+    text-decoration: underline;
+   }
